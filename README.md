@@ -18,28 +18,25 @@ Proyecto de automatización de pruebas realizado durante mi formación en QA Aut
 * ❌ Login inválido
 
   * Usuario bloqueado
-  * Validación de mensaje de error
+  * Validación de mensaje de error en pantalla
 
 ## ▶️ Cómo ejecutar el proyecto
 
 1. Clonar el repositorio
 2. Instalar dependencias:
 
-pip install -r requirements.txt
+<pre> ```bash pip install -r requirements.txt ``` </pre>
 
 3. Ejecutar los tests:
 
-python3 -m pytest -v -s
+<pre> ```bash python3 -m pytest -v -s ``` </pre>
 
 ## 📊 Generación de reporte
 
 Para generar un reporte en HTML:
 
-python3 -m pytest --html=report.html
+<pre> ```bash python3 -m pytest --html=report.html xdg-open report.html ``` </pre>
 
-Para abrir el reporte en Linux:
-
-xdg-open report.html
 
 ## 📁 Estructura del proyecto
 
