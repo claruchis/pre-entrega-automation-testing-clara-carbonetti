@@ -1,30 +1,38 @@
-# QA Automation - Preentrega
+# QA Automation - Preentrega - SauceDemo
 
-Proyecto de automatización realizado con Selenium y Pytest utilizando SauceDemo.
+## Propósito
 
-## Funcionalidades automatizadas
+Automatizar pruebas funcionales sobre SauceDemo utilizando Selenium y Pytest.
 
-### Login
+Incluye validaciones de:
+
 - Login válido
 - Login inválido
 - Login vacío
-- Validación URL y título
+- Inventario
+- Carrito de compras
 
-### Inventario
-- Verificación de productos
-- Obtención nombre/precio primer producto
+## Tecnologías utilizadas
 
-### Carrito
-- Agregar producto
-- Verificación contador
-- Validación producto agregado
-
-## Tecnologías
 - Python
 - Selenium
 - Pytest
+- pytest-html
 
-## Ejecutar tests
+## Instalación
 
-```bash
+Clonar repositorio:
+
+git clone URL
+
+Instalar dependencias:
+
+pip install -r requirements.txt
+
+## Ejecutar pruebas
+
 pytest -v
+
+## Generar reporte HTML
+
+pytest -v --html=report.html
